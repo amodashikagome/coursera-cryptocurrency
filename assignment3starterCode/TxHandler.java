@@ -87,4 +87,8 @@ public class TxHandler {
         return validTxs.toArray(new Transaction[validTxs.size()]);
     }
 
+    public UTXOPool getUTXOPool() {
+        return utxoPool;
+    }
+
 }
